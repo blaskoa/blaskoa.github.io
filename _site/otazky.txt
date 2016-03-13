@@ -1,0 +1,4 @@
+Podstranka Wpub -> na 1. zadanie emusi pbsahovat snad nic, kedze 1. zadanim je cela stranka?
+5 premennych -> sumarne vo vsetkych datovych suboroch? datove subory su v priecinku _data alebo nieco naviac?
+5 filtrov alebo tagov -> myslia sa tym tagy v zmysle blogu? alebo tagy v zmysle liquid? (tagy = programovacie struktury, filtre = stringove operacie prostrednictvom pajp)
+plugin -> aky plugin? je nejaky dobry zoznam pouzitelych pluginov?

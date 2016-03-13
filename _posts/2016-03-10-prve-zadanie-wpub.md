@@ -1,8 +1,9 @@
 ---
 layout: wpub
-title: "Prve zadanie z predmetu Webove publikovanie"
+title: "Zadanie 1."
 date: 2016-03-10
 category: wpub
 ---
 
-Prvym zadanim z tohto krasneho predmetu je cela tato stranka... tak :black_joker: sa kochajte [Stranka](http://blaskoa.github.io/)
+Prve zadanie pozostava z vytvorenia statickej stranky za pomoci technologii [Jekyll](https://jekyllrb.com/) a [Github](https://github.com/).
+Riesenim zadania je cela tato **[Stranka](http://blaskoa.github.io/)**.

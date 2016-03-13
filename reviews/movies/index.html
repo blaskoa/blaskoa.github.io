@@ -1,0 +1,11 @@
+---
+layout: reviews
+---
+
+	  {% for post in site.posts %}
+		{% if post.category == "rev" %}
+			{% if post.revcat == "movie" %}
+				<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+			{% endif %}
+		{% endif %}
+	  {% endfor %}

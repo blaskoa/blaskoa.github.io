@@ -1,0 +1,21 @@
+---
+layout: reviews
+---
+<h1>{{page.title}}</h1>
+{{page.img}}
+<table>
+	<tr>
+		<th>Kategoria</th>
+		<th>Zaner</th>
+		<th>Rok vydania</th>
+		<th>IMDB</th>
+	</tr>
+	<tr>
+		<td>{{page.revcat}}</td>
+		<td>{{page.genre}}</td>
+		<td>{{page.year}}</td>
+		<td><a href="{{page.imdb}}"> {{page.rating}}</a></td>
+	</tr>
+</table>
+
+{{content}}
