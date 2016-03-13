@@ -3,9 +3,22 @@ layout: default
 title: Adam Blasko
 ---
 <div class="blurb">
-	<h1>Nazdar!</h1>
+	<h1>Vitajte!</h1>
 	<p>
-		Volam sa <b> Adam Blasko </b>a toto je moje prve zadanie z predmetu webove publikovanie. Dufam, ze sa vam bude pacit.
-		<a href="/about">Read more about my life...</a>
+		Volam sa <b> Adam Blasko </b>a toto je moja stranka. Dufam, ze sa vam bude pacit.
+		<a href="/about">Viac o mne...</a>
 	</p>
+		<div class="news">
+		{% for post in site.posts | limit:5 %}
+
+	    	<h3><a href="{{ post.url }}" title="{{post.title}}">[{{post.category}}] {{ post.title }}</a></h3>
+	    	<p>
+	    		{% capture time %}{{ post.content | reading_time }}{% endcapture %}
+	    		{{post.content | truncatewords: 10}}
+	    		<a href="{{ post.url }}">Cely clanok - {{ time }} {% if time == '1' %}minuta{% elsif time < '5' %}minuty{% else %}minut{% endif %} citania.</a>
+	    	</p>
+	    <hr>
+
+	    {% endfor %}
+	    </div><!-- /.news -->
 </div><!-- /.blurb -->

@@ -1,8 +1,10 @@
 ---
 layout: default
 title: O mne - Adam Blasko
-date: 2014-04-30
+date: 2016-03-10
 ---
 
-Narodil som sa...
+# {{ page.title }}
+
+
 Momentalne som *studentom* 3. rocnika studijneho odboru Informatika

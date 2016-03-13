@@ -1,4 +1,4 @@
 name: Adam Blasko
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-gems: ["emoji_for_jekyll"]
+
