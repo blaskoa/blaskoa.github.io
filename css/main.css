@@ -108,7 +108,10 @@ td{
 .reviews table td{
     border:2px solid #cacaca;
 }
-
+.reviews li{
+    font-size: 1.2em;
+    margin-left: 20px;
+}
 
 .reviews img{
     height: 500px;

@@ -15,7 +15,7 @@ title: Adam Blasko
 	    	<h3><a href="{{ post.url }}" title="{{post.title}}">[{{post.category}}] {{ post.title }}</a></h3>
 	    	<p>
 	    		{% capture time %}{{ post.content | reading_time }}{% endcapture %}
-	    		{{post.content | truncatewords: 10}}
+	    		{{post.content | truncatewords: 20}}
 	    		<a href="{{ post.url }}">Cely clanok - {{ time }} {% if time == '1' %}minuta{% elsif time < '5' %}minuty{% else %}minut{% endif %} citania.</a>
 	    	</p>
 	    <hr>
