@@ -16,25 +16,25 @@ Pri transformacii kazdy element slide tvori samostatny XHTML dokument.
 V XML prezentacii som umoznil pouzivanie nasledujucich elementov
 
 * __peresentation__ 
-** root element XML-ka a resprezentuje objekt prezentacie
+  * root element XML-ka a resprezentuje objekt prezentacie
 * __info__
-** informacie o elemente, v ktorom sa nachadza. Moze byt v elemente presentaton, alebo slide
-** obsahuje informacie o autorovi, nazve a datume vytvorenia
-* section
-** rozdeluje preentaciu do logickych sekcii
-* slide
-** predstavuje jeden slide prezentacie. Mozu sa v nom nachadzat elementy info (uz opisany) a content
-* content
-** predstavuje realny obsah prezentacie. Jeho potomkami su elementy typu block. V jednom slajde mozu byt maximalne 2 bloky (vtedy sa umiestnia vedla seba). Ak je blok iba jeden, tak zabera celu plochu prezentacie.
-* blok
-** moze mat dcerske elementy ul (unsorted list), p (paragraf) a image (obrazok)
-* ul
-** inspirovane HTML
-* li
-** inspirovane HTML. Obsiahnuty text musi byt obaleny paragrafom
-* p
-** inspirovane HTML. Ma zmesany obsah (okrem textu moze obsahovat element emphasis)
-* emphasis
-** zvyraznenie casi textu (bold)
-* image
-** obsahuje cestu k obrazku, ktory sa ma zobrazit
+  * informacie o elemente, v ktorom sa nachadza. Moze byt v elemente presentaton, alebo slide
+  * obsahuje informacie o autorovi, nazve a datume vytvorenia
+* __section__
+  * rozdeluje preentaciu do logickych sekcii
+* __slide__
+  * predstavuje jeden slide prezentacie. Mozu sa v nom nachadzat elementy info (uz opisany) a content
+* __content__
+  * predstavuje realny obsah prezentacie. Jeho potomkami su elementy typu block. V jednom slajde mozu byt maximalne 2 bloky (vtedy sa umiestnia vedla seba). Ak je blok iba jeden, tak zabera celu plochu prezentacie.
+* __blok__
+  * moze mat dcerske elementy ul (unsorted list), p (paragraf) a image (obrazok)
+* __ul__
+  * inspirovane HTML
+* __li__
+  * inspirovane HTML. Obsiahnuty text musi byt obaleny paragrafom
+* __p__
+  * inspirovane HTML. Ma zmesany obsah (okrem textu moze obsahovat element emphasis)
+* __emphasis__
+  * zvyraznenie casi textu (bold)
+* __image__
+  * obsahuje cestu k obrazku, ktory sa ma zobrazit
